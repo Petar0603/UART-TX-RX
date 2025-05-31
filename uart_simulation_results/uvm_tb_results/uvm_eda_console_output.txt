@@ -1,0 +1,107 @@
+# KERNEL: UVM_INFO @ 0: reporter [RNTST] Running test test...
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_root.svh(583) @ 0: reporter [UVMTOP] UVM testbench topology:
+# KERNEL: --------------------------------------------------------------
+# KERNEL: Name                       Type                    Size  Value
+# KERNEL: --------------------------------------------------------------
+# KERNEL: uvm_test_top               test                    -     @340 
+# KERNEL:   env                      environment             -     @358 
+# KERNEL:     agn                    agent                   -     @376 
+# KERNEL:       drv                  driver                  -     @395 
+# KERNEL:         port               uvm_blocking_put_port   -     @561 
+# KERNEL:         rsp_port           uvm_analysis_port       -     @414 
+# KERNEL:         seq_item_port      uvm_seq_item_pull_port  -     @404 
+# KERNEL:       mon                  monitor                 -     @386 
+# KERNEL:         port               uvm_analysis_port       -     @572 
+# KERNEL:       seq                  uvm_sequencer           -     @424 
+# KERNEL:         rsp_export         uvm_analysis_export     -     @433 
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp   -     @551 
+# KERNEL:         arbitration_queue  array                   0     -    
+# KERNEL:         lock_queue         array                   0     -    
+# KERNEL:         num_last_reqs      integral                32    'd1  
+# KERNEL:         num_last_rsps      integral                32    'd1  
+# KERNEL:     sco                    scoreboard              -     @367 
+# KERNEL:       driver_imp           uvm_blocking_put_imp    -     @598 
+# KERNEL:       monitor_imp          uvm_analysis_imp        -     @588 
+# KERNEL: --------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 50000: uvm_test_top.env.agn.drv [drv] Reset done.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 50000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 0 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 50000: uvm_test_top.env.agn.seq@@seq1 [seq1] Transmitting data 1000101
+# KERNEL: UVM_INFO /home/runner/driver.sv(14) @ 50000: uvm_test_top.env.agn.drv [drv] Performing transmission: 1000101
+# KERNEL: UVM_INFO /home/runner/monitor.sv(34) @ 6405000: uvm_test_top.env.agn.mon [mon] Transmitted data: 1000101
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 6405000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 6455000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 1 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 6455000: uvm_test_top.env.agn.seq@@seq1 [seq1] Receiving data.
+# KERNEL: UVM_INFO /home/runner/driver.sv(17) @ 6455000: uvm_test_top.env.agn.drv [drv] Performing reception.
+# KERNEL: UVM_INFO /home/runner/driver.sv(58) @ 12525000: uvm_test_top.env.agn.drv [drv] Data to be received: 11001111
+# KERNEL: UVM_INFO /home/runner/monitor.sv(25) @ 12845000: uvm_test_top.env.agn.mon [mon] Received data: 11001111
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 12845000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 12895000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 2 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 12895000: uvm_test_top.env.agn.seq@@seq1 [seq1] Receiving data.
+# KERNEL: UVM_INFO /home/runner/driver.sv(17) @ 12895000: uvm_test_top.env.agn.drv [drv] Performing reception.
+# KERNEL: UVM_INFO /home/runner/driver.sv(58) @ 18965000: uvm_test_top.env.agn.drv [drv] Data to be received: 111101
+# KERNEL: UVM_INFO /home/runner/monitor.sv(25) @ 19285000: uvm_test_top.env.agn.mon [mon] Received data: 111101
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 19285000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 19335000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 3 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 19335000: uvm_test_top.env.agn.seq@@seq1 [seq1] Transmitting data 1011011
+# KERNEL: UVM_INFO /home/runner/driver.sv(14) @ 19335000: uvm_test_top.env.agn.drv [drv] Performing transmission: 1011011
+# KERNEL: UVM_INFO /home/runner/monitor.sv(34) @ 25685000: uvm_test_top.env.agn.mon [mon] Transmitted data: 1011011
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 25685000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 25735000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 4 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 25735000: uvm_test_top.env.agn.seq@@seq1 [seq1] Transmitting data 10100111
+# KERNEL: UVM_INFO /home/runner/driver.sv(14) @ 25735000: uvm_test_top.env.agn.drv [drv] Performing transmission: 10100111
+# KERNEL: UVM_INFO /home/runner/monitor.sv(34) @ 32085000: uvm_test_top.env.agn.mon [mon] Transmitted data: 10100111
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 32085000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 32135000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 5 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 32135000: uvm_test_top.env.agn.seq@@seq1 [seq1] Receiving data.
+# KERNEL: UVM_INFO /home/runner/driver.sv(17) @ 32135000: uvm_test_top.env.agn.drv [drv] Performing reception.
+# KERNEL: UVM_INFO /home/runner/driver.sv(58) @ 38205000: uvm_test_top.env.agn.drv [drv] Data to be received: 1111
+# KERNEL: UVM_INFO /home/runner/monitor.sv(25) @ 38525000: uvm_test_top.env.agn.mon [mon] Received data: 1111
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 38525000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 38575000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 6 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 38575000: uvm_test_top.env.agn.seq@@seq1 [seq1] Transmitting data 1000110
+# KERNEL: UVM_INFO /home/runner/driver.sv(14) @ 38575000: uvm_test_top.env.agn.drv [drv] Performing transmission: 1000110
+# KERNEL: UVM_INFO /home/runner/monitor.sv(34) @ 44925000: uvm_test_top.env.agn.mon [mon] Transmitted data: 1000110
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 44925000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 44975000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 7 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 44975000: uvm_test_top.env.agn.seq@@seq1 [seq1] Receiving data.
+# KERNEL: UVM_INFO /home/runner/driver.sv(17) @ 44975000: uvm_test_top.env.agn.drv [drv] Performing reception.
+# KERNEL: UVM_INFO /home/runner/driver.sv(58) @ 51045000: uvm_test_top.env.agn.drv [drv] Data to be received: 10010001
+# KERNEL: UVM_INFO /home/runner/monitor.sv(25) @ 51365000: uvm_test_top.env.agn.mon [mon] Received data: 10010001
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 51365000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 51415000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 8 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 51415000: uvm_test_top.env.agn.seq@@seq1 [seq1] Receiving data.
+# KERNEL: UVM_INFO /home/runner/driver.sv(17) @ 51415000: uvm_test_top.env.agn.drv [drv] Performing reception.
+# KERNEL: UVM_INFO /home/runner/driver.sv(58) @ 57485000: uvm_test_top.env.agn.drv [drv] Data to be received: 10100010
+# KERNEL: UVM_INFO /home/runner/monitor.sv(25) @ 57805000: uvm_test_top.env.agn.mon [mon] Received data: 10100010
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 57805000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 57855000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 9 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 57855000: uvm_test_top.env.agn.seq@@seq1 [seq1] Transmitting data 11110010
+# KERNEL: UVM_INFO /home/runner/driver.sv(14) @ 57855000: uvm_test_top.env.agn.drv [drv] Performing transmission: 11110010
+# KERNEL: UVM_INFO /home/runner/monitor.sv(34) @ 64205000: uvm_test_top.env.agn.mon [mon] Transmitted data: 11110010
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(19) @ 64205000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_objection.svh(1271) @ 64255000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_report_server.svh(869) @ 64255000: reporter [UVM/REPORT/SERVER] 
+# KERNEL: --- UVM Report Summary ---
+# KERNEL: 
+# KERNEL: Quit count :     0 of     1
+# KERNEL: ** Report counts by severity
+# KERNEL: UVM_INFO :   60
+# KERNEL: UVM_WARNING :    0
+# KERNEL: UVM_ERROR :    0
+# KERNEL: UVM_FATAL :    0
+# KERNEL: ** Report counts by id
+# KERNEL: [RNTST]     1
+# KERNEL: [TEST_DONE]     1
+# KERNEL: [UVM/RELNOTES]     1
+# KERNEL: [UVMTOP]     1
+# KERNEL: [drv]    16
+# KERNEL: [mon]    10
+# KERNEL: [sco]    10
+# KERNEL: [seq1]    20
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 uvm_root.svh (521): $finish called.
+# KERNEL: Time: 64255 ns,  Iteration: 64,  Instance: /uart_tb_top,  Process: @INITIAL#38_2@.
+# KERNEL: stopped at time: 64255 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
