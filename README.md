@@ -19,4 +19,4 @@ UVM Simulation
 ---
 ## Console Info
 - Console outputs from Vivado Simulator (for SV simulation) and EDA Playground (for UVM simulation)
-are included in 'spi_simulation_results' file.
+are included in 'uart_simulation_results' file.
