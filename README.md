@@ -7,6 +7,8 @@ UART Transmitter and Receiver designed in Verilog, verified in SystemVerilog and
 - Clock frequency and Baud rate are parameters in 'uart_top' which can be modified.
 - Receiver consists of a datapath and a control unit while transmitter is one module.
 - In 'uart_top' module 'uart_rx' and 'uart_tx' are bith connected to 'baud_generator'.
+- Testbench files are in 'uart_tb_sv' and 'uart_tb_uvm' folders. (Both include 'uart_pkg' packages
+with all of the classes included: driver, monitor, scoreboard etc.)
   
 ---
 ## Simulation Screenshots
