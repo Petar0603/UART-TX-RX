@@ -5,7 +5,7 @@ UART Transmitter and Receiver designed in Verilog, verified in SystemVerilog and
 ## About
 - Transmitter and Reciever are independent and can be used for separate operations.
 - Clock frequency and Baud rate are parameters in 'uart_top' which can be modified.
-- Receiver consists of a datapath and a control unit.
+- Receiver consists of a datapath and a control unit while transmitter is one module.
 - In 'uart_top' module 'uart_rx' and 'uart_tx' are bith connected to 'baud_generator'.
   
 ---
